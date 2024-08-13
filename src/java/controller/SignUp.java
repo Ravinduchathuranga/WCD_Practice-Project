@@ -13,7 +13,13 @@ public class SignUp extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String mobile = request.getParameter("mobile");
+        String name = request.getParameter("name");
+        String country = request.getParameter("country");
 
+        System.out.println(mobile);
+        System.out.println(name);
+        System.out.println(country);
     }
 
 }
