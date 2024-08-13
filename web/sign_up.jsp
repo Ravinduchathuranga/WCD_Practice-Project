@@ -9,13 +9,13 @@
 
 <body>
     <h1>Sign Up</h1>
-    <form action="signUp" method="POST">
+    <form action="SignUp" method="POST">
         <div class="d1">Mobile</div>
-        <input />
-        <div class="d1">Mobile</div>
-        <input />
+        <input name="mobile"/>
+        <div class="d1">Name</div>
+        <input name="name"/>
         <div class="d1">Country</div>
-        <select>
+        <select name="country">
             <option>Sri Lanka</option>
             <option>Japan</option>
             <option>America</option>
